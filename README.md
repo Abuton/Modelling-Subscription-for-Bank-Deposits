@@ -52,7 +52,7 @@ if code succesfully runs it returns an ROC curve image that is saved on the loca
 similar to this depending on which model
 
 
-<img src="roc_curve_images/XGBoost_ROC.png" height=500, width=400>
+<img src="roc_curve_images/XGBoost_ROC.png" height=600, width=700>
 
 ### References
 1. <a href='https://archive.ics.uci.edu/ml/datasets/Bank+Marketing'> UCI Data </a> 
