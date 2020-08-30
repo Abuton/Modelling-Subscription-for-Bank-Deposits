@@ -21,17 +21,17 @@ The main goal as a machine learning researcher is to carry out data exploration,
 cleaning, feature extraction, and developing robust machine learning algorithms that
 would aid them in the department. 
 
-Data Description can be found (https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)[here]
+Data Description can be found <a href="https://archive.ics.uci.edu/ml/datasets/Bank+Marketing"> here </a>
 
 ### To Run the code for training and evaluation :
-1. pip3 install -r requirements.txt
-2. clone the repo and run main.py as given below
+1. Clone the repo and run main.py as given below
+2. pip3 install -r requirements.txt
 
 **To Run a baseline without evaluation results**
 
 py .\main.py  --data '../data/bank-additional-full.csv' 
 
-**To run a specific model for all available models**
+**To run a specific model for all available models and get evaluation reports**
 
 py .\main.py  --data 'data location' --model 'model-name' e.g
 
@@ -49,9 +49,14 @@ Note that if model is not specified default will be 'logistic regression'
 Upcoming Update will accept argument to predict on test data and save predictions to local machine
 
 if code succesfully runs it returns an ROC curve image that is saved on the local machine and built model is saved as well with a time stamp and model name. 
+similar to this depending on which model
 
+
+<img src="roc_images/XGBoost_ROC.png" height=40, width=50>
 
 ### References
-1. (https://archive.ics.uci.edu/ml/datasets/Bank+Marketing) [UCI Data]
-2. (medium.com/@abbdar/first-steps-in-machine-learning-predicting-subscription-for-bank-deposits-866516b90e4)[marketing analysis]
-3. (featureranking.com/tutorials/machine-learning-tutorials.data-preparation-for-machine-learning/#2.3)[Data Preprocessing]
+1. <a href='https://archive.ics.uci.edu/ml/datasets/Bank+Marketing'> UCI Data </a> 
+
+2. <a href='medium.com/@abbdar/first-steps-in-machine-learning-predicting-subscription-for-bank-deposits-866516b90e4'> marketing analysis </a>
+
+3. <a href='featureranking.com/tutorials/machine-learning-tutorials.data-preparation-for-machine-learning/#2.3'> Data Preprocessing </a>
