@@ -23,6 +23,8 @@ would aid them in the department. 
 
 Data Description can be found <a href="https://archive.ics.uci.edu/ml/datasets/Bank+Marketing"> here </a>
 
+I wrote a blog post on towardsdatascience.com explaining the process i took to transform and build the models it can be found <a href="https://towardsdatascience.com/data-cleaning-and-preprocessing-modelling-subscription-for-bank-deposits-e810bd1ab5da" > here </a>
+
 ### To Run the code for training and evaluation :
 1. Clone the repo and run main.py as given below
 2. pip3 install -r requirements.txt
